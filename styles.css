@@ -6,12 +6,12 @@ h1 {
     color: white;
 }
 
-@media (max-width: 1920px) {
-    .title {
-        text-align: center;
-    }
+.title {
+    text-align: center;
 }
 
 @media (max-width: 1366px) {
-
+    body {
+        background-color: green;
+    }
 }
