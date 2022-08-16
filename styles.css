@@ -8,15 +8,19 @@ h1, h3, p{
     color: #00FF00;
 }
 
-.title {
+header {
+    margin-top: 6%;
     text-align: center;
+
+}
+
+.title {
     text-decoration: underline;
-    margin-top: 3%;
 }
 
 footer {
     background-color: #404040;
-    margin-top: 37%;
+    margin-top: 28%;
     padding-bottom: 1%;
 }
 
@@ -40,11 +44,21 @@ footer {
 
 main {
     text-align: center;
-    margin-top: 8%;
+    margin-top: 7%;
+}
+
+.main-text2 {
+    margin-top: 5%;
 }
 
 @media (max-width: 1366px) {
     body {
         background-color: green;
+    }
+
+    footer {
+        background-color: #404040;
+        margin-top: 37%;
+        padding-bottom: 1%;
     }
 }
