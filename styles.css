@@ -9,7 +9,7 @@ h1, h3, p{
 }
 
 header {
-    margin-top: 6%;
+    margin-top: 4%;
     text-align: center;
 
 }
@@ -20,7 +20,7 @@ header {
 
 footer {
     background-color: #404040;
-    margin-top: 28%;
+    margin-top: 13%;
     padding-bottom: 1%;
 }
 
@@ -44,21 +44,32 @@ footer {
 
 main {
     text-align: center;
-    margin-top: 7%;
+    margin-top: 4%;
 }
 
 .main-text2 {
     margin-top: 5%;
 }
 
+.scroll {
+    margin-top: 7%;
+}
+
 @media (max-width: 1366px) {
     body {
+        background-image: url(images/cozy-peepo-1366x768.webp);
         background-color: green;
     }
 
+    header {
+        margin-top: 2%;
+    }
+
     footer {
-        background-color: #404040;
-        margin-top: 37%;
-        padding-bottom: 1%;
+        margin-top: 5%;
+    }
+
+    .scroll {
+        margin-top: 3%;
     }
 }
