@@ -1,5 +1,10 @@
 body {
     background-image: url(images/cozy-peepo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000000;
     margin: 0%;
     padding: 0%;
 }
@@ -22,11 +27,11 @@ footer {
     background-color: #404040;
     margin-top: 13%;
     padding-bottom: 1%;
+    color: #00FF00;
 }
 
 
 .links {
-    color: #00FF00;
     display: inline;
     padding-left: 10%;
     text-align: center;
@@ -55,21 +60,42 @@ main {
     margin-top: 7%;
 }
 
+div {
+    margin: 0%;
+    padding: 0%;
+    background-color: #000000;
+}
+
+h2 {
+    text-align: center;
+}
+
+.language {
+    display: inline;
+    background-color: black;
+    color: #00FF00;
+    font-size: 20px;
+    margin-right: 85%;
+}
+
+.en {
+    padding-right: 0.5%;
+}
+
 @media (max-width: 1366px) {
     body {
-        background-image: url(images/cozy-peepo-1366x768.webp);
         background-color: green;
     }
 
     header {
-        margin-top: 2%;
-    }
-
-    footer {
         margin-top: 5%;
     }
 
+    main {
+        margin-top: 4%;
+    }
+
     .scroll {
-        margin-top: 3%;
+        margin-top: 5%;
     }
 }
