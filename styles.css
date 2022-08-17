@@ -9,6 +9,10 @@ body {
     padding: 0%;
 }
 
+a {
+    color: #00FF00;
+}
+
 h1, h3, p{
     color: #00FF00;
 }
