@@ -86,6 +86,11 @@ h2 {
     padding-right: 0.5%;
 }
 
+.xmr {
+    position: relative;
+    left: 42%;
+}
+
 @media (max-width: 1366px) {
     body {
         background-color: green;
